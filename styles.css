@@ -1,0 +1,73 @@
+body {
+  background-image: url("./img/background-removebg-preview.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-position: 50% 50%;
+}
+.coming-soon {
+  max-width: 400px;
+  background-color: #f7f5f3;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 6px 16px -10px #000;
+}
+h2,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 57px;
+  line-height: 44px;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.title-description {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.features-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feature {
+  text-align: center;
+  max-width: 200px;
+  padding: 15px;
+}
+.bordered {
+  border-right: 1px solid black;
+}
+.title-description {
+  font-style: italic;
+}
+.title-description,
+.feature-description {
+  font-size: 14px;
+  line-height: 20px;
+}
+.feature-title {
+  margin-bottom: 10px;
+  font-size: 17px;
+  line-height: 21px;
+  font: "Georgia";
+  font-weight: 700;
+}
+.feature-description {
+  font-size: 14px;
+  line-height: 20px;
+  font: "Georgia";
+  font-weight: 400;
+  text-align: center;
+}
